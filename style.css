@@ -1,0 +1,117 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0b0f19;
+    color: #f1f5f9;
+}
+
+header {
+    padding: 18px;
+    text-align: center;
+    background: #111827;
+    border-bottom: 1px solid #334155;
+}
+
+header h1 {
+    margin: 0 0 6px;
+}
+
+header p {
+    margin: 0;
+    color: #94a3b8;
+}
+
+#chat {
+    max-width: 800px;
+    height: calc(100dvh - 155px);
+    overflow-y: auto;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.pesan-able,
+.pesan-user {
+    margin-bottom: 16px;
+    padding: 14px;
+    border-radius: 14px;
+    overflow-wrap: anywhere;
+}
+
+.pesan-able {
+    background: #1e293b;
+}
+
+.pesan-user {
+    background: #164e63;
+    margin-left: 30px;
+}
+
+.isi-pesan {
+    line-height: 1.7;
+}
+
+.isi-pesan p {
+    margin: 8px 0;
+}
+
+.isi-pesan h1,
+.isi-pesan h2,
+.isi-pesan h3 {
+    margin-top: 18px;
+}
+
+.isi-pesan pre {
+    overflow-x: auto;
+    padding: 12px;
+    background: #0b0f19;
+    border-radius: 8px;
+}
+
+.isi-pesan code {
+    overflow-wrap: anywhere;
+}
+
+.isi-pesan table {
+    display: block;
+    overflow-x: auto;
+    border-collapse: collapse;
+}
+
+.isi-pesan th,
+.isi-pesan td {
+    padding: 8px;
+    border: 1px solid #475569;
+}
+
+footer {
+    display: flex;
+    gap: 10px;
+    padding: 12px;
+    background: #111827;
+    border-top: 1px solid #334155;
+}
+
+input {
+    flex: 1;
+    min-width: 0;
+    padding: 12px;
+    border: 1px solid #475569;
+    border-radius: 10px;
+    background: #1e293b;
+    color: white;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 10px;
+    background: #2563eb;
+    color: white;
+    font-weight: bold;
+  }
